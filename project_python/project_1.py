@@ -33,7 +33,7 @@ print(type(seletedd))
 imag = st.file_uploader("enter your img", type=["jpg",'jpeg',"png"],
                         accept_multiple_files = True)
 print(type(imag))
-
+st.divider()
 if imag:
     col = st.columns(len(imag))
     for i, img in enumerate(imag):
