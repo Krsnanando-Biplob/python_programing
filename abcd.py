@@ -1,0 +1,3 @@
+ast = "hello"
+
+print("ast")
