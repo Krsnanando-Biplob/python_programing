@@ -12,5 +12,5 @@ for animal in [Cat(), Dog()]:
 def add(a, b):
     return a + b
 
-print(add(5, 3))       # integer
-print(add("Hello ", "World"))  # string
+print(add(5, 3))
+print(add("Hello ", "World"))
